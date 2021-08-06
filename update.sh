@@ -7,7 +7,7 @@ echo -e "\e[32mDo you want to update it? (y/n) \e[0m"
 read ChB
 
 if [ "$ChB" = "y" ]; then
-cd $HOME
+cd ..
 rm -rf zVirus-Gen
 git clone https://github.com/ZechBron/zVirus-Gen
 cd zVirus-Gen
